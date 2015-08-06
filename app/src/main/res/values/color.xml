@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="canvas_bg">#00A199</color>
+    <color name="cavas_chat_bg">#15A8A2</color>
+
+    <color name="theme">#00a199</color>
+
+    <color name="custon_stroke">#cceceb</color>
+    <color name="custom_relative_backround">#00A199</color>
+    <color name="white">#fff</color>
+</resources>
