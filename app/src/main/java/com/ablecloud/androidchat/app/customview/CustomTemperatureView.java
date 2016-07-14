@@ -51,9 +51,6 @@ public class CustomTemperatureView extends RelativeLayout{
         customChatView=(CustomChatView)this.findViewById(R.id.customChatview);
         customleftView.setHum(false);
         customChatView.setHum(false);
-
-
-
     }
 
     @Override

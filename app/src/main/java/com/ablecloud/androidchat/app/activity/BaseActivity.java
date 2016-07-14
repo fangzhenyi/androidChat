@@ -31,10 +31,10 @@ public abstract class BaseActivity extends Activity {
 
 
 
-    public int getColor(int id) {
+    /*public int getColor(int id) {
         return getResources().getColor(id);
     }
-
+*/
     @Override
     public void finish() {
         super.finish();

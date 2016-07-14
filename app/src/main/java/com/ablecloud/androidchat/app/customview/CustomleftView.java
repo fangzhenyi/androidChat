@@ -70,14 +70,11 @@ public class CustomleftView extends View {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         setMeasuredDimension(getdippx(50), (xCount - 1) * intervaleY + getdippx(50));
-
     }
 
     private int getdippx(int dpValue) {
-
         float scale = getResources().getDisplayMetrics().density;
         return (int) (dpValue * scale + 0.5f);
-
     }
 
     private int getsppx(float spValue) {
